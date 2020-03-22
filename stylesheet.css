@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+header {
+    height: 55px;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.5);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-right {
+    float: right;
+    margin-right: 50px;
+}
+
+.header-left {
+    float: left;
+    margin-left: 30px;
+}
+
+.header-left p{
+    line-height: 55px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    opacity: 0.9;
+    display: block;
+}
+
+.header-right a {
+    line-height: 55px;
+    padding: 0 25px;
+    color: white;
+    opacity:0.9;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+a {
+    text-decoration: none;
+}
+
+.Top{
+    height:550px;
+    width:100%;
+    background-image: url(top.jpeg);
+    background-size: cover;
+}
+
+.Top p{
+    color:white;
+    float: right;
+    margin-top:430px;
+    margin-right: 60px;
+    opacity:0.8;
+    font-size: 20px;
+}
+
+.Middle{
+    height:550px;
+    width:100%;
+}
+
+.greeting{
+    width:50%;
+    margin:0 auto;
+    margin-top: 200px;
+}
+
+.greeting h1{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+
+.greeting1 {
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+
+.greeting2 {
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+
+.greeting3 {
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+
+article{
+    width: 100%;
+}
+
+.kakomi-smart1 {
+    position: relative;
+    margin: 2em auto;
+    padding: 2.5em 1em 1em;
+    width: 70%; /* ボックス幅 */
+    border-style: solid;
+    border-color: #3955cf; /* 枠の色 */
+    border-width: 5px 1px 1px;
+    background-color: #f7f7f7c9; /* 背景色 */
+    color: #666; /* テキスト色 */
+}
+
+.title-smart1 {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    background-color: #f7f7f7c9; /* タイトル背景色 */
+    color: #3955cf; /* タイトル色 */
+}
+
+hr{
+    height:1px;
+    border:none;
+    border-top: 1px  #666 solid;
+}
+
